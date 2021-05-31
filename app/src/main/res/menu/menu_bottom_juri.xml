@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_kabisa"
+        android:icon="@drawable/ic_wawancara"
+        android:title="kabisa" />
+    <item
+        android:id="@+id/navigation_presentasi"
+        android:icon="@drawable/ic_administrasi"
+        android:title="presentasi" />
+    <item
+        android:id="@+id/navigation_interview"
+        android:icon="@drawable/ic_testulis"
+        android:title="interview" />
+    <item
+        android:id="@+id/navigation_top7"
+        android:icon="@drawable/ic_personality"
+        android:title="top 7" />
+
+</menu>

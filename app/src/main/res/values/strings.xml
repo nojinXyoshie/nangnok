@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nok Nang Dermayu</string>
+
+    <string-array name="note">
+        <item>NEGATIF</item>
+        <item>POSITIF</item>
+    </string-array>
+</resources>

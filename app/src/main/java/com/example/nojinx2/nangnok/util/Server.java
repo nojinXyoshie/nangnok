@@ -1,0 +1,60 @@
+package com.example.nojinx2.nangnok.util;
+
+public class Server {
+    //public static final String URL = "http://www.nojinxyoshie.epizy.com/API/";
+    //public static final String URL = "http://192.168.43.25/API/";
+    public static final String URL = "http://nagnok.000webhostapp.com/API/";
+    public static final String URL_foto_peserta = URL+"upload_image/";
+    public static final int TIMEOUT_ACCESS = 5000;
+    public static String fetch_agenda = URL+"fetch_agenda.php";
+    public static String fetch_peserta = URL+"fetch_peserta.php";
+    public static String fetch_wawancara = URL+"fetch_wawancara.php";
+    public static String fetch_administrasi = URL+"fetch_administrasi.php";
+    public static String fetch_testulis = URL+"fetch_testulis.php";
+    public static String fetch_personality = URL+"fetch_personality.php";
+    public static String attendance = URL+"attendance.php";
+    public static String cari_peserta = URL+"cari_peserta.php";
+    public static String cari_polling = URL+"cari_polling.php";
+    public static String cari_kabisa = URL+"cari_kabisa.php";
+    public static String cari_presentasi = URL+"cari_presentasi.php";
+    public static String cari_interview = URL+"cari_interview.php";
+    public static String cari_top7 = URL+"cari_top7.php";
+    public static String cari_wawancara = URL+"cari_wawancara.php";
+    public static String cari_administrasi = URL+"cari_administrasi.php";
+    public static String cari_testulis = URL+"cari_testulis.php";
+    public static String cari_personality = URL+"cari_personality.php";
+    public static String fetch_wawancara_session = URL+"fetch_wawancara_session.php";
+    public static String fetch_polling = URL+"fetch_polling.php";
+    public static String polling = URL+"polling.php";
+    public static String input_nilai_pariwisata = URL+"input_nilai_pariwisata.php";
+    public static String input_note_pariwisata = URL+"input_note_pariwisata.php";
+    public static String input_nilai_kesenian = URL+"input_nilai_kesenian.php";
+    public static String input_note_kesenian = URL+"input_note_kesenian.php";
+    public static String input_nilai_pengumum = URL+"input_nilai_pengumum.php";
+    public static String input_note_pengumum = URL+"input_note_pengumum.php";
+    public static String input_nilai_agama = URL+"input_nilai_agama.php";
+    public static String input_note_agama = URL+"input_note_agama.php";
+    public static String input_nilai_basing = URL+"input_nilai_basing.php";
+    public static String input_note_basing = URL+"input_note_basing.php";
+    public static String input_nilai_administrasi = URL+"input_nilai_administrasi.php";
+    public static String input_note_administrasi = URL+"input_note_administrasi.php";
+    public static String input_nilai_testulis = URL+"input_nilai_testulis.php";
+    public static String input_note_testulis = URL+"input_note_testulis.php";
+    public static String input_nilai_personality = URL+"input_nilai_personality.php";
+    public static String input_note_personality = URL+"input_note_personality.php";
+    public static String fetch_kabisa = URL+"fetch_kabisa.php";
+    public static String input_nilai_kabisa = URL+"input_nilai_kabisa.php";
+    public static String input_note_kabisa = URL+"input_note_kabisa.php";
+    public static String fetch_presentasi = URL+"fetch_presentasi.php";
+    public static String input_nilai_presentasi = URL+"input_nilai_presentasi.php";
+    public static String input_note_presentasi = URL+"input_note_presentasi.php";
+    public static String fetch_interview = URL+"fetch_interview.php";
+    public static String input_nilai_interview = URL+"input_nilai_interview.php";
+    public static String input_note_interview = URL+"input_note_interview.php";
+    public static String fetch_top7 = URL+"fetch_top7.php";
+    public static String input_nilai_top7 = URL+"input_nilai_top7.php";
+    public static String input_note_top7 = URL+"input_note_top7.php";
+    public static String fetch_penghargaan = URL+"fetch_penghargaan.php";
+
+
+}

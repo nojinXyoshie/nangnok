@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/profile"
+        android:layout_marginRight="10dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/txt_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/pekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nama"
+        android:layout_toRightOf="@id/thumbnail"
+        android:maxLines="1"
+        android:textColor="@color/chef"
+        android:text="Profesi : "
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txt_pekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nama"
+        android:layout_toRightOf="@id/pekerjaan"
+        android:maxLines="1"
+        android:textColor="@color/chef"
+        android:text="Pekerjaan"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/asal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_pekerjaan"
+        android:layout_toRightOf="@id/thumbnail"
+        android:maxLines="1"
+        android:text="Asal : "
+        android:textColor="@color/chef"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txt_asal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_pekerjaan"
+        android:layout_toRightOf="@id/asal"
+        android:maxLines="1"
+        android:text="Asal"
+        android:textColor="@color/chef"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/visi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_asal"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="Visi misi : "
+        android:textColor="@color/description"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txt_visi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_asal"
+        android:layout_toEndOf="@+id/visi"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="Visi misi"
+        android:textColor="@color/description"
+        android:textSize="12dp" />
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0.5dp"-->
+    <!--android:background="#FF909090"-->
+    <!--android:layout_marginTop="79dp"/>-->
+
+</RelativeLayout>
